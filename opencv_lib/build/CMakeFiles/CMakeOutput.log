@@ -1,0 +1,1416 @@
+The system is: Darwin - 18.2.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/3.13.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/3.13.3/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e95a9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e95a9.dir/build.make CMakeFiles/cmTC_e95a9.dir/build
+Building CXX object CMakeFiles/cmTC_e95a9.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e95a9.dir/testCXXCompiler.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e95a9
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e95a9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e95a9.dir/testCXXCompiler.cxx.o  -o cmTC_e95a9 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77009/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77009.dir/build.make CMakeFiles/cmTC_77009.dir/build
+Building CXX object CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_77009
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77009.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77009 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_77009 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_77009/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77009.dir/build.make CMakeFiles/cmTC_77009.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_77009]
+  ignore line: [/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77009.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77009 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_77009 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_77009] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_77009.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b945/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7b945.dir/build.make CMakeFiles/cmTC_7b945.dir/build
+Building CXX object CMakeFiles/cmTC_7b945.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c++1z -o CMakeFiles/cmTC_7b945.dir/feature_tests.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7b945
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b945.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b945.dir/feature_tests.cxx.o  -o cmTC_7b945 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c050/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c050.dir/build.make CMakeFiles/cmTC_7c050.dir/build
+Building CXX object CMakeFiles/cmTC_7c050.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c++14 -o CMakeFiles/cmTC_7c050.dir/feature_tests.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7c050
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c050.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c050.dir/feature_tests.cxx.o  -o cmTC_7c050 
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af1be/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_af1be.dir/build.make CMakeFiles/cmTC_af1be.dir/build
+Building CXX object CMakeFiles/cmTC_af1be.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_af1be.dir/feature_tests.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af1be
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af1be.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af1be.dir/feature_tests.cxx.o  -o cmTC_af1be 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6550c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6550c.dir/build.make CMakeFiles/cmTC_6550c.dir/build
+Building CXX object CMakeFiles/cmTC_6550c.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c++98 -o CMakeFiles/cmTC_6550c.dir/feature_tests.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6550c
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6550c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6550c.dir/feature_tests.cxx.o  -o cmTC_6550c 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e30d1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e30d1.dir/build.make CMakeFiles/cmTC_e30d1.dir/build
+Building C object CMakeFiles/cmTC_e30d1.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e30d1.dir/testCCompiler.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e30d1
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e30d1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e30d1.dir/testCCompiler.c.o  -o cmTC_e30d1 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_325aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_325aa.dir/build.make CMakeFiles/cmTC_325aa.dir/build
+Building C object CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_325aa
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_325aa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o  -o cmTC_325aa 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_325aa -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_325aa/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_325aa.dir/build.make CMakeFiles/cmTC_325aa.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_325aa]
+  ignore line: [/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_325aa.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o  -o cmTC_325aa ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_325aa -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_325aa] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_325aa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54450/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_54450.dir/build.make CMakeFiles/cmTC_54450.dir/build
+Building C object CMakeFiles/cmTC_54450.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c11 -o CMakeFiles/cmTC_54450.dir/feature_tests.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54450
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54450.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_54450.dir/feature_tests.c.o  -o cmTC_54450 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a9a0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8a9a0.dir/build.make CMakeFiles/cmTC_8a9a0.dir/build
+Building C object CMakeFiles/cmTC_8a9a0.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c99 -o CMakeFiles/cmTC_8a9a0.dir/feature_tests.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8a9a0
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9a0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8a9a0.dir/feature_tests.c.o  -o cmTC_8a9a0 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_044e7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_044e7.dir/build.make CMakeFiles/cmTC_044e7.dir/build
+Building C object CMakeFiles/cmTC_044e7.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -std=c90 -o CMakeFiles/cmTC_044e7.dir/feature_tests.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_044e7
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_044e7.dir/feature_tests.c.o  -o cmTC_044e7 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4effa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4effa.dir/build.make CMakeFiles/cmTC_4effa.dir/build
+Building C object CMakeFiles/cmTC_4effa.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_4effa.dir/CheckSymbolExists.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4effa
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4effa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_4effa.dir/CheckSymbolExists.c.o  -o cmTC_4effa 
+
+File /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f0ad/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9f0ad.dir/build.make CMakeFiles/cmTC_9f0ad.dir/build
+Building C object CMakeFiles/cmTC_9f0ad.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_9f0ad.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f0ad
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_9f0ad.dir/CheckIncludeFile.c.o  -o cmTC_9f0ad 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c9f8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0c9f8.dir/build.make CMakeFiles/cmTC_0c9f8.dir/build
+Building C object CMakeFiles/cmTC_0c9f8.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_0c9f8.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0c9f8
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c9f8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0c9f8.dir/CheckIncludeFile.c.o  -o cmTC_0c9f8 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_440a0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_440a0.dir/build.make CMakeFiles/cmTC_440a0.dir/build
+Building C object CMakeFiles/cmTC_440a0.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_440a0.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_440a0
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440a0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_440a0.dir/CheckIncludeFile.c.o  -o cmTC_440a0 
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c54e7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c54e7.dir/build.make CMakeFiles/cmTC_c54e7.dir/build
+Building C object CMakeFiles/cmTC_c54e7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c54e7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_c54e7
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c54e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c54e7.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_c54e7 
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca154/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca154.dir/build.make CMakeFiles/cmTC_ca154.dir/build
+Building C object CMakeFiles/cmTC_ca154.dir/TestEndianess.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ca154.dir/TestEndianess.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ca154
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca154.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ca154.dir/TestEndianess.c.o  -o cmTC_ca154 
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5bfa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5bfa.dir/build.make CMakeFiles/cmTC_d5bfa.dir/build
+Building C object CMakeFiles/cmTC_d5bfa.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d5bfa.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5bfa
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5bfa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d5bfa.dir/CheckFunctionExists.c.o  -o cmTC_d5bfa 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f809a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f809a.dir/build.make CMakeFiles/cmTC_f809a.dir/build
+Building C object CMakeFiles/cmTC_f809a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f809a.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f809a
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f809a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f809a.dir/CheckIncludeFile.c.o  -o cmTC_f809a 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b775/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5b775.dir/build.make CMakeFiles/cmTC_5b775.dir/build
+Building C object CMakeFiles/cmTC_5b775.dir/SIZEOF_SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5b775.dir/SIZEOF_SIZE_T.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_5b775
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b775.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_5b775.dir/SIZEOF_SIZE_T.c.o  -o cmTC_5b775 
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10290/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_10290.dir/build.make CMakeFiles/cmTC_10290.dir/build
+Building C object CMakeFiles/cmTC_10290.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_10290.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_10290
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10290.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_10290.dir/CheckIncludeFile.c.o  -o cmTC_10290 
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5ee4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a5ee4.dir/build.make CMakeFiles/cmTC_a5ee4.dir/build
+Building C object CMakeFiles/cmTC_a5ee4.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_a5ee4.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a5ee4
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ee4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_a5ee4.dir/CheckIncludeFile.c.o  -o cmTC_a5ee4 
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe797/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fe797.dir/build.make CMakeFiles/cmTC_fe797.dir/build
+Building C object CMakeFiles/cmTC_fe797.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_fe797.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe797
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe797.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_fe797.dir/CheckIncludeFile.c.o  -o cmTC_fe797 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea1a7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ea1a7.dir/build.make CMakeFiles/cmTC_ea1a7.dir/build
+Building C object CMakeFiles/cmTC_ea1a7.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ea1a7.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ea1a7
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1a7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ea1a7.dir/CheckIncludeFile.c.o  -o cmTC_ea1a7 
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79d8f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_79d8f.dir/build.make CMakeFiles/cmTC_79d8f.dir/build
+Building C object CMakeFiles/cmTC_79d8f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_79d8f.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_79d8f
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79d8f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_79d8f.dir/CheckIncludeFile.c.o  -o cmTC_79d8f 
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65a67/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_65a67.dir/build.make CMakeFiles/cmTC_65a67.dir/build
+Building C object CMakeFiles/cmTC_65a67.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_65a67.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_65a67
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a67.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_65a67.dir/CheckIncludeFile.c.o  -o cmTC_65a67 
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9dda/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9dda.dir/build.make CMakeFiles/cmTC_e9dda.dir/build
+Building C object CMakeFiles/cmTC_e9dda.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e9dda.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9dda
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9dda.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e9dda.dir/CheckIncludeFile.c.o  -o cmTC_e9dda 
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2821b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2821b.dir/build.make CMakeFiles/cmTC_2821b.dir/build
+Building C object CMakeFiles/cmTC_2821b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2821b.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2821b
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2821b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_2821b.dir/CheckIncludeFile.c.o  -o cmTC_2821b 
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_559c1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_559c1.dir/build.make CMakeFiles/cmTC_559c1.dir/build
+Building C object CMakeFiles/cmTC_559c1.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_559c1.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_559c1
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_559c1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_559c1.dir/CheckIncludeFile.c.o  -o cmTC_559c1 
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52b51/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52b51.dir/build.make CMakeFiles/cmTC_52b51.dir/build
+Building C object CMakeFiles/cmTC_52b51.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_52b51.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52b51
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b51.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_52b51.dir/CheckIncludeFile.c.o  -o cmTC_52b51 
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c53c1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c53c1.dir/build.make CMakeFiles/cmTC_c53c1.dir/build
+Building C object CMakeFiles/cmTC_c53c1.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c53c1.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c53c1
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c53c1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c53c1.dir/CheckIncludeFile.c.o  -o cmTC_c53c1 
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1259b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1259b.dir/build.make CMakeFiles/cmTC_1259b.dir/build
+Building C object CMakeFiles/cmTC_1259b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -Dinline=inline  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DC_HAS_inline -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1259b.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:4:15: warning: no previous prototype for function 'foo' [-Wmissing-prototypes]
+        foo_t foo(){return 0;}
+              ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter 'argc' [-Wunused-parameter]
+        int main(int argc, char *argv[]) {return 0;}
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter 'argv' [-Wunused-parameter]
+        int main(int argc, char *argv[]) {return 0;}
+                                 ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:3:29: warning: unused function 'static_foo' [-Wunused-function]
+        static inline foo_t static_foo() {return 0;}
+                            ^
+4 warnings generated.
+Linking C executable cmTC_1259b
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1259b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DC_HAS_inline -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_1259b.dir/src.c.o  -o cmTC_1259b 
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f538d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f538d.dir/build.make CMakeFiles/cmTC_f538d.dir/build
+Building C object CMakeFiles/cmTC_f538d.dir/SIZEOF_SIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_f538d.dir/SIZEOF_SIGNED_SHORT.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_f538d
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f538d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f538d.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_f538d 
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04205/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_04205.dir/build.make CMakeFiles/cmTC_04205.dir/build
+Building C object CMakeFiles/cmTC_04205.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_04205.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_04205
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04205.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_04205.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_04205 
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_566d2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_566d2.dir/build.make CMakeFiles/cmTC_566d2.dir/build
+Building C object CMakeFiles/cmTC_566d2.dir/SIZEOF_SIGNED_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_566d2.dir/SIZEOF_SIGNED_INT.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_566d2
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_566d2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_566d2.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_566d2 
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_062c3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_062c3.dir/build.make CMakeFiles/cmTC_062c3.dir/build
+Building C object CMakeFiles/cmTC_062c3.dir/SIZEOF_UNSIGNED_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_062c3.dir/SIZEOF_UNSIGNED_INT.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_062c3
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_062c3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_062c3.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_062c3 
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12300/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_12300.dir/build.make CMakeFiles/cmTC_12300.dir/build
+Building C object CMakeFiles/cmTC_12300.dir/SIZEOF_SIGNED_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_12300.dir/SIZEOF_SIGNED_LONG.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_12300
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12300.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_12300.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_12300 
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e623/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0e623.dir/build.make CMakeFiles/cmTC_0e623.dir/build
+Building C object CMakeFiles/cmTC_0e623.dir/SIZEOF_UNSIGNED_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_0e623.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_0e623
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e623.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0e623.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_0e623 
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb0df/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb0df.dir/build.make CMakeFiles/cmTC_cb0df.dir/build
+Building C object CMakeFiles/cmTC_cb0df.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_cb0df.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_cb0df
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb0df.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_cb0df.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_cb0df 
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e70ed/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e70ed.dir/build.make CMakeFiles/cmTC_e70ed.dir/build
+Building C object CMakeFiles/cmTC_e70ed.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e70ed.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_e70ed
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e70ed.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e70ed.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_e70ed 
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82e62/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_82e62.dir/build.make CMakeFiles/cmTC_82e62.dir/build
+Building C object CMakeFiles/cmTC_82e62.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_82e62.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_82e62
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e62.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_82e62.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_82e62 
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6639/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d6639.dir/build.make CMakeFiles/cmTC_d6639.dir/build
+Building C object CMakeFiles/cmTC_d6639.dir/SIZEOF_PTRDIFF_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_d6639.dir/SIZEOF_PTRDIFF_T.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_d6639
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6639.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d6639.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_d6639 
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e96b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e96b.dir/build.make CMakeFiles/cmTC_8e96b.dir/build
+Building C object CMakeFiles/cmTC_8e96b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_8e96b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_8e96b
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e96b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_8e96b.dir/CheckFunctionExists.c.o  -o cmTC_8e96b /usr/lib/libm.dylib 
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b877a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b877a.dir/build.make CMakeFiles/cmTC_b877a.dir/build
+Building C object CMakeFiles/cmTC_b877a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b877a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_b877a
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b877a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b877a.dir/CheckFunctionExists.c.o  -o cmTC_b877a /usr/lib/libm.dylib 
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91ee6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91ee6.dir/build.make CMakeFiles/cmTC_91ee6.dir/build
+Building C object CMakeFiles/cmTC_91ee6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_91ee6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_91ee6
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ee6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_91ee6.dir/CheckFunctionExists.c.o  -o cmTC_91ee6 /usr/lib/libm.dylib 
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ae44/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ae44.dir/build.make CMakeFiles/cmTC_1ae44.dir/build
+Building C object CMakeFiles/cmTC_1ae44.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1ae44.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ae44
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae44.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_1ae44.dir/CheckFunctionExists.c.o  -o cmTC_1ae44 
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d228/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2d228.dir/build.make CMakeFiles/cmTC_2d228.dir/build
+Building C object CMakeFiles/cmTC_2d228.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2d228.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_2d228
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d228.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_2d228.dir/CheckFunctionExists.c.o  -o cmTC_2d228 
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a99f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a99f.dir/build.make CMakeFiles/cmTC_7a99f.dir/build
+Building C object CMakeFiles/cmTC_7a99f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_7a99f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a99f
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a99f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_7a99f.dir/CheckFunctionExists.c.o  -o cmTC_7a99f 
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_103b3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_103b3.dir/build.make CMakeFiles/cmTC_103b3.dir/build
+Building C object CMakeFiles/cmTC_103b3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_103b3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_103b3
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_103b3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_103b3.dir/CheckFunctionExists.c.o  -o cmTC_103b3 
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45687/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_45687.dir/build.make CMakeFiles/cmTC_45687.dir/build
+Building C object CMakeFiles/cmTC_45687.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_45687.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_45687
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45687.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_45687.dir/CheckFunctionExists.c.o  -o cmTC_45687 
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad788/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ad788.dir/build.make CMakeFiles/cmTC_ad788.dir/build
+Building C object CMakeFiles/cmTC_ad788.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_ad788.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad788
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad788.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ad788.dir/CheckFunctionExists.c.o  -o cmTC_ad788 
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35733/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35733.dir/build.make CMakeFiles/cmTC_35733.dir/build
+Building C object CMakeFiles/cmTC_35733.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_35733.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_35733
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35733.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_35733.dir/CheckFunctionExists.c.o  -o cmTC_35733 
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fe29/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2fe29.dir/build.make CMakeFiles/cmTC_2fe29.dir/build
+Building C object CMakeFiles/cmTC_2fe29.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2fe29.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_2fe29
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe29.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_2fe29.dir/CheckFunctionExists.c.o  -o cmTC_2fe29 
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e4ac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e4ac.dir/build.make CMakeFiles/cmTC_1e4ac.dir/build
+Building C object CMakeFiles/cmTC_1e4ac.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_1e4ac.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_1e4ac
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e4ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_1e4ac.dir/CheckFunctionExists.c.o  -o cmTC_1e4ac 
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75938/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75938.dir/build.make CMakeFiles/cmTC_75938.dir/build
+Building C object CMakeFiles/cmTC_75938.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_75938.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_75938
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75938.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_75938.dir/CheckFunctionExists.c.o  -o cmTC_75938 
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98a7b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98a7b.dir/build.make CMakeFiles/cmTC_98a7b.dir/build
+Building C object CMakeFiles/cmTC_98a7b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_98a7b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98a7b
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a7b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_98a7b.dir/CheckFunctionExists.c.o  -o cmTC_98a7b 
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b794a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b794a.dir/build.make CMakeFiles/cmTC_b794a.dir/build
+Building C object CMakeFiles/cmTC_b794a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b794a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b794a
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b794a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b794a.dir/CheckFunctionExists.c.o  -o cmTC_b794a 
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dabe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6dabe.dir/build.make CMakeFiles/cmTC_6dabe.dir/build
+Building C object CMakeFiles/cmTC_6dabe.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_6dabe.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6dabe
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dabe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6dabe.dir/CheckFunctionExists.c.o  -o cmTC_6dabe 
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36f91/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36f91.dir/build.make CMakeFiles/cmTC_36f91.dir/build
+Building C object CMakeFiles/cmTC_36f91.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_36f91.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36f91
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36f91.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_36f91.dir/CheckFunctionExists.c.o  -o cmTC_36f91 
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acc7f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_acc7f.dir/build.make CMakeFiles/cmTC_acc7f.dir/build
+Building C object CMakeFiles/cmTC_acc7f.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_acc7f.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_acc7f
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acc7f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_acc7f.dir/src.c.o  -o cmTC_acc7f 
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b089/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b089.dir/build.make CMakeFiles/cmTC_2b089.dir/build
+Building C object CMakeFiles/cmTC_2b089.dir/TestEndianess.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2b089.dir/TestEndianess.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_2b089
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b089.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_2b089.dir/TestEndianess.c.o  -o cmTC_2b089 
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88b4d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88b4d.dir/build.make CMakeFiles/cmTC_88b4d.dir/build
+Building C object CMakeFiles/cmTC_88b4d.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_88b4d.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88b4d
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b4d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_88b4d.dir/CheckIncludeFile.c.o  -o cmTC_88b4d 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdab8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cdab8.dir/build.make CMakeFiles/cmTC_cdab8.dir/build
+Building C object CMakeFiles/cmTC_cdab8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_cdab8.dir/CheckSymbolExists.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cdab8
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdab8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_cdab8.dir/CheckSymbolExists.c.o  -o cmTC_cdab8 
+
+File /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function dgemm_ exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1ae0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b1ae0.dir/build.make CMakeFiles/cmTC_b1ae0.dir/build
+Building C object CMakeFiles/cmTC_b1ae0.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_b1ae0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1ae0
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ae0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b1ae0.dir/CheckFunctionExists.c.o  -o cmTC_b1ae0 -framework Accelerate 
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c32d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8c32d.dir/build.make CMakeFiles/cmTC_8c32d.dir/build
+Building C object CMakeFiles/cmTC_8c32d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_8c32d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c32d
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c32d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_8c32d.dir/CheckFunctionExists.c.o  -o cmTC_8c32d -framework Accelerate -framework Accelerate 
+
+
+Determining if the include file Accelerate/Accelerate.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bfdb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5bfdb.dir/build.make CMakeFiles/cmTC_5bfdb.dir/build
+Building C object CMakeFiles/cmTC_5bfdb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_5bfdb.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5bfdb
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bfdb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_5bfdb.dir/CheckIncludeFile.c.o  -o cmTC_5bfdb 
+
+
+Determining if the include file Accelerate/Accelerate.h exists passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36ad8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36ad8.dir/build.make CMakeFiles/cmTC_36ad8.dir/build
+Building C object CMakeFiles/cmTC_36ad8.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_36ad8.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_36ad8
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ad8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_36ad8.dir/CheckIncludeFile.c.o  -o cmTC_36ad8 
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_452bd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_452bd.dir/build.make CMakeFiles/cmTC_452bd.dir/build
+Building C object CMakeFiles/cmTC_452bd.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_452bd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_452bd
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_452bd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_452bd.dir/CheckFunctionExists.c.o  -o cmTC_452bd -ldl 
+
+

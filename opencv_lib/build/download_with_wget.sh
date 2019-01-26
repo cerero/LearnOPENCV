@@ -1,0 +1,1 @@
+wget -O "/Users/lisujia/workspace/LearnOPENCV/opencv_source/.cache/ippicv/3ae52b9be0fe73dd45bc5e9429cd3732-ippicv_2017u3_mac_intel64_general_20180518.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/bdb7bb85f34a8cb0d35e40a81f58da431aa1557a/ippicv/ippicv_2017u3_mac_intel64_general_20180518.tgz"

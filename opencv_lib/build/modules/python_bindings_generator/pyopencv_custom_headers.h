@@ -1,0 +1,9 @@
+//user-defined headers
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/core/misc/python/pyopencv_core.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/Users/lisujia/workspace/LearnOPENCV/opencv_source/modules/stitching/misc/python/pyopencv_stitching.hpp"

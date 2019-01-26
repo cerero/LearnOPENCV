@@ -1,0 +1,45 @@
+/*
+ * dm04_mat.cpp
+ *
+ *  Created on: Jan 25, 2019
+ *      Author: lisujia
+ */
+
+#include "opencv2/opencv.hpp"
+#include "dm04_mat.h"
+#include <iostream>
+#include <cmath>
+
+using namespace cv;
+using namespace std;
+
+int test_dm04() {
+	Mat src = imread("/Users/lisujia/Desktop/test.jpg");
+	if (src.empty()) {
+		return -1;
+
+
+	}
+
+	namedWindow("input", WINDOW_AUTOSIZE);
+	imshow("intput", src);
+
+//	Mat dst = Mat(src.size(), src.type());
+//	Mat dst = src.clone();
+//	Mat dst;
+//	src.copyTo(dst);
+
+	Mat dst;
+	cvtColor(src, dst, COLOR_BGR2GRAY);
+	cout << "intput channel: " << src.channels() << endl;
+	cout << "output channel: " << dst.channels() << endl;
+
+	namedWindow("output", WINDOW_AUTOSIZE);
+	imshow("output", dst);
+
+	const uchar* first_row = dst.ptr<uchar>(0);
+
+	waitKey(0);
+	return 0;
+}
+

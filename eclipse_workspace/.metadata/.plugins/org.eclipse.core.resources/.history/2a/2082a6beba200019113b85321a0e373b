@@ -1,0 +1,36 @@
+/*
+ * dm04_mat.cpp
+ *
+ *  Created on: Jan 25, 2019
+ *      Author: lisujia
+ */
+
+#include "opencv2/opencv.hpp"
+#include "dm04_mat.h"
+#include <iostream>
+#include <cmath>
+
+using namespace cv;
+using namespace std;
+
+int test_dm04() {
+	Mat src = imread("/Users/lisujia/Desktop/test.jpg");
+	if (src.empty()) {
+		return -1;
+
+
+	}
+
+	namedWindow("input", WINDOW_AUTOSIZE);
+	imshow("intput", src);
+
+//	Mat dst = Mat(src.size(), src.type());
+//	namedWindow("output", WINDOW_AUTOSIZE);
+//	imshow("output", dst);
+
+	Mat dst = src.clone();
+
+	waitKey(0);
+	return 0;
+}
+

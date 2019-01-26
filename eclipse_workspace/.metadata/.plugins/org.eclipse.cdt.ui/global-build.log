@@ -1,0 +1,16 @@
+00:30:21 **** Incremental Build of configuration Debug for project TestOpenCV ****
+make all 
+Building file: ../src/demo/dm04_mat.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/demo/dm04_mat.d" -MT"src/demo/dm04_mat.o" -o "src/demo/dm04_mat.o" "../src/demo/dm04_mat.cpp"
+Finished building: ../src/demo/dm04_mat.cpp
+ 
+Building target: TestOpenCV
+Invoking: MacOS X C++ Linker
+g++ -L/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/lib -stdlib=libc++ -o "TestOpenCV"  ./src/demo/dm03_maskbit.o ./src/demo/dm04_mat.o  ./src/TestOpenCV.o   -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_core
+Finished building target: TestOpenCV
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+add rpath
+install_name_tool -add_rpath /Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/lib ./TestOpenCV
+ 

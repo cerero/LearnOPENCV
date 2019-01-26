@@ -1,0 +1,764 @@
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_popcnt.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8593/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8593.dir/build.make CMakeFiles/cmTC_c8593.dir/build
+Building CXX object CMakeFiles/cmTC_c8593.dir/cpu_popcnt.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_c8593.dir/cpu_popcnt.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_popcnt.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_popcnt.cpp:14:4: error: "__POPCNT__ is not defined by compiler"
+#  error "__POPCNT__ is not defined by compiler"
+   ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_popcnt.cpp:22:13: error: use of undeclared identifier 'CV_POPCNT_U32'
+    int j = CV_POPCNT_U32(1);
+            ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c8593.dir/cpu_popcnt.cpp.o] Error 1
+make: *** [cmTC_c8593/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_sse42.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_469e4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_469e4.dir/build.make CMakeFiles/cmTC_469e4.dir/build
+Building CXX object CMakeFiles/cmTC_469e4.dir/cpu_sse42.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_469e4.dir/cpu_sse42.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_sse42.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_sse42.cpp:5:24: error: always_inline function '_mm_crc32_u8' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+    unsigned int res = _mm_crc32_u8(1, 2);
+                       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_469e4.dir/cpu_sse42.cpp.o] Error 1
+make: *** [cmTC_469e4/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_fp16.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a9d6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5a9d6.dir/build.make CMakeFiles/cmTC_5a9d6.dir/build
+Building CXX object CMakeFiles/cmTC_5a9d6.dir/cpu_fp16.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_5a9d6.dir/cpu_fp16.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_fp16.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_fp16.cpp:26:2: error: "FP16 is not supported"
+#error "FP16 is not supported"
+ ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_fp16.cpp:31:18: error: use of undeclared identifier 'test'
+  printf("%d\n", test());
+                 ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_5a9d6.dir/cpu_fp16.cpp.o] Error 1
+make: *** [cmTC_5a9d6/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03852/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_03852.dir/build.make CMakeFiles/cmTC_03852.dir/build
+Building CXX object CMakeFiles/cmTC_03852.dir/cpu_avx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_03852.dir/cpu_avx.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx.cpp:2:2: error: "__AVX__ define is missing"
+#error "__AVX__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_03852.dir/cpu_avx.cpp.o] Error 1
+make: *** [cmTC_03852/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx2.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b33e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1b33e.dir/build.make CMakeFiles/cmTC_1b33e.dir/build
+Building CXX object CMakeFiles/cmTC_1b33e.dir/cpu_avx2.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_1b33e.dir/cpu_avx2.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx2.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx2.cpp:2:2: error: "__AVX2__ define is missing"
+#error "__AVX2__ define is missing"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1b33e.dir/cpu_avx2.cpp.o] Error 1
+make: *** [cmTC_1b33e/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e11f3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e11f3.dir/build.make CMakeFiles/cmTC_e11f3.dir/build
+Building CXX object CMakeFiles/cmTC_e11f3.dir/cpu_avx512.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_e11f3.dir/cpu_avx512.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512.cpp:11:2: error: "AVX512 is not supported"
+#error "AVX512 is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e11f3.dir/cpu_avx512.cpp.o] Error 1
+make: *** [cmTC_e11f3/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512skx.cpp'
+    check option: ' -msse -msse2 -msse3 -mssse3 -msse4.1'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddc8c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddc8c.dir/build.make CMakeFiles/cmTC_ddc8c.dir/build
+Building CXX object CMakeFiles/cmTC_ddc8c.dir/cpu_avx512skx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -msse -msse2 -msse3 -mssse3 -msse4.1 -std=c++11 -o CMakeFiles/cmTC_ddc8c.dir/cpu_avx512skx.cpp.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512skx.cpp
+/Users/lisujia/workspace/LearnOPENCV/opencv_source/cmake/checks/cpu_avx512skx.cpp:15:2: error: "AVX512-SKX is not supported"
+#error "AVX512-SKX is not supported"
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ddc8c.dir/cpu_avx512skx.cpp.o] Error 1
+make: *** [cmTC_ddc8c/fast] Error 2
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cae3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2cae3.dir/build.make CMakeFiles/cmTC_2cae3.dir/build
+Building C object CMakeFiles/cmTC_2cae3.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_2cae3.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2cae3.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_2cae3/fast] Error 2
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faec7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_faec7.dir/build.make CMakeFiles/cmTC_faec7.dir/build
+Building C object CMakeFiles/cmTC_faec7.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_faec7.dir/OFF64_T.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_faec7.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_faec7/fast] Error 2
+
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11b1e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11b1e.dir/build.make CMakeFiles/cmTC_11b1e.dir/build
+Building C object CMakeFiles/cmTC_11b1e.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_11b1e.dir/CheckIncludeFile.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_11b1e.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_11b1e/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c623a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c623a.dir/build.make CMakeFiles/cmTC_c623a.dir/build
+Building C object CMakeFiles/cmTC_c623a.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_c623a.dir/int8.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:25:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:26:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:27:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:28:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c623a.dir/int8.c.o] Error 1
+make: *** [cmTC_c623a/fast] Error 2
+
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6160/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a6160.dir/build.make CMakeFiles/cmTC_a6160.dir/build
+Building C object CMakeFiles/cmTC_a6160.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_a6160.dir/int16.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:25:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:26:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:27:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:28:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_a6160.dir/int16.c.o] Error 1
+make: *** [cmTC_a6160/fast] Error 2
+
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41db5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_41db5.dir/build.make CMakeFiles/cmTC_41db5.dir/build
+Building C object CMakeFiles/cmTC_41db5.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_41db5.dir/int32.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:25:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:26:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:27:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:28:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_41db5.dir/int32.c.o] Error 1
+make: *** [cmTC_41db5/fast] Error 2
+
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5b98/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c5b98.dir/build.make CMakeFiles/cmTC_c5b98.dir/build
+Building C object CMakeFiles/cmTC_c5b98.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_c5b98.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_c5b98
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5b98.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_c5b98.dir/src.c.o  -o cmTC_c5b98 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15bab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_15bab.dir/build.make CMakeFiles/cmTC_15bab.dir/build
+Building C object CMakeFiles/cmTC_15bab.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-maybe-uninitialized -o CMakeFiles/cmTC_15bab.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_15bab
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15bab.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_15bab.dir/src.c.o  -o cmTC_15bab 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae5b3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae5b3.dir/build.make CMakeFiles/cmTC_ae5b3.dir/build
+Building C object CMakeFiles/cmTC_ae5b3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_ae5b3.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_ae5b3
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae5b3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ae5b3.dir/src.c.o  -o cmTC_ae5b3 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-parameter', did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-parameter'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_045a8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_045a8.dir/build.make CMakeFiles/cmTC_045a8.dir/build
+Building C object CMakeFiles/cmTC_045a8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-unused-but-set-parameter -o CMakeFiles/cmTC_045a8.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-parameter'; did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_045a8
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045a8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_045a8.dir/src.c.o  -o cmTC_045a8 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4ab3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f4ab3.dir/build.make CMakeFiles/cmTC_f4ab3.dir/build
+Building C object CMakeFiles/cmTC_f4ab3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTC_f4ab3.dir/src.c.o   -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_f4ab3
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4ab3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f4ab3.dir/src.c.o  -o cmTC_f4ab3 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f919/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f919.dir/build.make CMakeFiles/cmTC_0f919.dir/build
+Building CXX object CMakeFiles/cmTC_0f919.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-misleading-indentation -std=c++11 -o CMakeFiles/cmTC_0f919.dir/src.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_0f919
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f919.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0f919.dir/src.cxx.o  -o cmTC_0f919 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-suggest-override', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6815b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6815b.dir/build.make CMakeFiles/cmTC_6815b.dir/build
+Building CXX object CMakeFiles/cmTC_6815b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-suggest-override -std=c++11 -o CMakeFiles/cmTC_6815b.dir/src.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-suggest-override'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_6815b
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6815b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6815b.dir/src.cxx.o  -o cmTC_6815b 
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3f46/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e3f46.dir/build.make CMakeFiles/cmTC_e3f46.dir/build
+Building C object CMakeFiles/cmTC_e3f46.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -o CMakeFiles/cmTC_e3f46.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.13.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3f46
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3f46.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_e3f46.dir/CheckFunctionExists.c.o  -o cmTC_e3f46 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e3f46] Error 1
+make: *** [cmTC_e3f46/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-enum-compare-switch', did you mean '-Wno-enum-compare'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10fab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_10fab.dir/build.make CMakeFiles/cmTC_10fab.dir/build
+Building CXX object CMakeFiles/cmTC_10fab.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_10fab.dir/src.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-enum-compare-switch'; did you mean '-Wno-enum-compare'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_10fab
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10fab.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_10fab.dir/src.cxx.o  -o cmTC_10fab 
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d6f4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d6f4.dir/build.make CMakeFiles/cmTC_3d6f4.dir/build
+Building CXX object CMakeFiles/cmTC_3d6f4.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIE   -Wno-maybe-uninitialized -std=c++11 -o CMakeFiles/cmTC_3d6f4.dir/src.cxx.o -c /Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/lisujia/workspace/LearnOPENCV/opencv_lib/build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_3d6f4
+/usr/local/Cellar/cmake/3.13.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6f4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -mssse3 -msse4.1 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-parentheses  -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_3d6f4.dir/src.cxx.o  -o cmTC_3d6f4 
+
+===== END =====
+
