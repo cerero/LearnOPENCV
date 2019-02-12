@@ -9,6 +9,7 @@
 //#include "opencv2/opencv.hpp"
 #include "demo/dm03_maskbit.h"
 #include "demo/dm04_mat.h"
+#include "demo/dm05_image_process.h"
 #include <iostream>
 //using namespace std;
 //using namespace cv;
@@ -35,6 +36,7 @@ int main(int argc, char **argv) {
 //	waitKey(0);
 
 //	test_dm03();
-	test_dm04();
+//	test_dm04();
+	test_dm05();
 	return 0;
 }

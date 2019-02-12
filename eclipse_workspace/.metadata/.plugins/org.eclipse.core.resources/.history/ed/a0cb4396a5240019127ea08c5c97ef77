@@ -1,0 +1,10 @@
+#include "dm05_image_process.h"
+#include <iostream>
+#include "opencv2/opencv.hpp"
+using namespace cv;
+using namespace std;
+
+int test_dm05() {
+
+	return 0;
+}
