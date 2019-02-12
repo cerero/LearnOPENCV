@@ -10,9 +10,13 @@
 #include "demo/dm03_maskbit.h"
 #include "demo/dm04_mat.h"
 #include "demo/dm05_image_process.h"
+#include "demo/dm06_image_blend.h"
+
 #include <iostream>
 //using namespace std;
 //using namespace cv;
+
+int test_dm07();
 
 int main(int argc, char **argv) {
 //	Mat image = cv::imread("/Users/lisujia/Desktop/test.jpg", ImreadModes::IMREAD_COLOR);
@@ -37,6 +41,8 @@ int main(int argc, char **argv) {
 
 //	test_dm03();
 //	test_dm04();
-	test_dm05();
+//	test_dm05();
+//	test_dm06();
+	test_dm07();
 	return 0;
 }

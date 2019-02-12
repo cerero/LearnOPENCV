@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 
 int test_dm05() {
-	Mat src = imread("./resource/IMG_6313.jpg", cv::ImreadModes::IMREAD_COLOR);
+	Mat src = imread("./resource/test.jpg", cv::ImreadModes::IMREAD_COLOR);
 	if (src.data == NULL) {
 		cout << "read image error!!" << endl;
 		return -1;

@@ -7,19 +7,22 @@ CPP_SRCS += \
 ../src/demo/dm03_maskbit.cpp \
 ../src/demo/dm04_mat.cpp \
 ../src/demo/dm05_image_process.cpp \
-../src/demo/dm06_image_blend.cpp 
+../src/demo/dm06_image_blend.cpp \
+../src/demo/dm07_luminance_contrast.cpp 
 
 OBJS += \
 ./src/demo/dm03_maskbit.o \
 ./src/demo/dm04_mat.o \
 ./src/demo/dm05_image_process.o \
-./src/demo/dm06_image_blend.o 
+./src/demo/dm06_image_blend.o \
+./src/demo/dm07_luminance_contrast.o 
 
 CPP_DEPS += \
 ./src/demo/dm03_maskbit.d \
 ./src/demo/dm04_mat.d \
 ./src/demo/dm05_image_process.d \
-./src/demo/dm06_image_blend.d 
+./src/demo/dm06_image_blend.d \
+./src/demo/dm07_luminance_contrast.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
