@@ -1,4 +1,5 @@
-src/demo/dm04_mat.o: ../src/demo/dm04_mat.cpp \
+src/demo/dm06_image_blend.o: ../src/demo/dm06_image_blend.cpp \
+  ../src/demo/dm06_image_blend.h \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/opencv.hpp \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/opencv_modules.hpp \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/core.hpp \
@@ -115,8 +116,9 @@ src/demo/dm04_mat.o: ../src/demo/dm04_mat.cpp \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/fast_marching_inl.hpp \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/deblurring.hpp \
   /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/wobble_suppression.hpp \
-  /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/ring_buffer.hpp \
-  ../src/demo/dm04_mat.h
+  /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/ring_buffer.hpp
+
+../src/demo/dm06_image_blend.h:
 
 /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/opencv.hpp:
 
@@ -351,5 +353,3 @@ src/demo/dm04_mat.o: ../src/demo/dm04_mat.cpp \
 /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/wobble_suppression.hpp:
 
 /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4/opencv2/videostab/ring_buffer.hpp:
-
-../src/demo/dm04_mat.h:

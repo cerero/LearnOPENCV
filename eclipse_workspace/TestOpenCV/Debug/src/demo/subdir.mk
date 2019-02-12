@@ -6,24 +6,27 @@
 CPP_SRCS += \
 ../src/demo/dm03_maskbit.cpp \
 ../src/demo/dm04_mat.cpp \
-../src/demo/dm05_image_process.cpp 
+../src/demo/dm05_image_process.cpp \
+../src/demo/dm06_image_blend.cpp 
 
 OBJS += \
 ./src/demo/dm03_maskbit.o \
 ./src/demo/dm04_mat.o \
-./src/demo/dm05_image_process.o 
+./src/demo/dm05_image_process.o \
+./src/demo/dm06_image_blend.o 
 
 CPP_DEPS += \
 ./src/demo/dm03_maskbit.d \
 ./src/demo/dm04_mat.d \
-./src/demo/dm05_image_process.d 
+./src/demo/dm05_image_process.d \
+./src/demo/dm06_image_blend.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
 src/demo/%.o: ../src/demo/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	g++ -I/Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

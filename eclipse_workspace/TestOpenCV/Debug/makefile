@@ -45,7 +45,7 @@ all: TestOpenCV
 TestOpenCV: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/lib -stdlib=libc++ -o "TestOpenCV" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/lib -stdlib=libc++ -o "TestOpenCV" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -57,7 +57,7 @@ clean:
 
 post-build:
 	-@echo 'add rpath'
-	-install_name_tool -add_rpath /Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/lib ./TestOpenCV
+	-install_name_tool -add_rpath /Users/wangyongjie/book/workspace/c++/LearnOPENCV/eclipse_workspace/TestOpenCV/Debug/../../../opencv_lib/release/lib ./TestOpenCV
 	-@echo ' '
 
 .PHONY: all clean dependents post-build
