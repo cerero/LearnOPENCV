@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, char **argv) {
-	Mat image = cv::imread("test.jpg", ImreadModes::IMREAD_COLOR);
+	Mat image = cv::imread("../res/test.jpg", ImreadModes::IMREAD_COLOR);
 
 	if (image.empty()) {
 		cout << "can't load image" << endl;

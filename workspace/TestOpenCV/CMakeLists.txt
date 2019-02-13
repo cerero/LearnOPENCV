@@ -14,16 +14,15 @@ set(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++ ${CMAKE_CXX_FLAGS}")
 
 #head file path，头文件目录
 INCLUDE_DIRECTORIES(
-"src/include" "/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/include/opencv4"
+"src/include" "${CMAKE_HOME_DIRECTORY}/../../opencv_lib/release/include/opencv4"
 )
 
 AUX_SOURCE_DIRECTORY(
 src DIR_SRCS
 )
 
-#${CMAKE_HOME_DIRECTORY}/../opencv_lib/release/lib
 link_directories(
-"/Users/lisujia/workspace/LearnOPENCV/opencv_lib/release/lib"
+"${CMAKE_HOME_DIRECTORY}/../../opencv_lib/release/lib"
 )
 
 #add executable file，添加要编译的可执行文件
