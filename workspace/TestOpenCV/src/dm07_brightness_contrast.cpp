@@ -6,7 +6,7 @@ using namespace std;
 
 int test_dm07() {
 	Mat src, dst;
-	src = imread("./resource/test.jpg", cv::ImreadModes::IMREAD_COLOR);
+	src = imread("../res/test.jpg", cv::ImreadModes::IMREAD_COLOR);
 	if (!src.data) {
 		printf("could not load image...\n");
 		return -1;
